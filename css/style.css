@@ -1,6 +1,11 @@
 .input-form {
   display: none;
 }
+input[type="text"] {
+	border: #000 solid 2px;
+	padding: 10px 5px;
+	color: #999;
+}
 .btn {
 	margin-top: 30px;
 	padding: 10px 20px;
