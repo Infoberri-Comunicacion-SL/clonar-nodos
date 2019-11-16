@@ -10,12 +10,18 @@ input[type="text"] {
 	margin-top: 30px;
 	padding: 10px 20px;
 	border: 0;
+	transition: all 0.3s;
 }
 .btn-add {
 	color: #fff;
 	background: #0000fc;
+	margin: 20px 0 0 20px;
 }
 .btn-delete {
 	color: #fff;
 	background: #cd0000;
+	margin: 0 0 0 20px;
+}
+.btn:hover {
+	transform: scale(1.2);
 }
